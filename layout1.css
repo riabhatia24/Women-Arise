@@ -1,0 +1,194 @@
+@charset "utf-8";
+/*
+Template Name: Dodmond
+Author: <a href="http://www.os-templates.com/">OS Templates</a>
+Author URI: http://www.os-templates.com/
+Licence: Free to use under our free template licence terms
+Licence URI: http://www.os-templates.com/template-terms
+File: Layout CSS
+*/
+
+@import url("font-awesome.min.css");
+@import url("custom.flexslider.css");
+@import url("framework.css");
+
+/* Rows
+--------------------------------------------------------------------------------------------------------------- */
+.row0, .row0 a{}
+.row1, .row1 a{}
+
+
+/* Top Bar
+--------------------------------------------------------------------------------------------------------------- */
+
+
+/* Header
+--------------------------------------------------------------------------------------------------------------- */
+#header{padding:50px 0;}
+
+#header #logo *{margin:0; padding:0; line-height:1;}
+#header #logo h1{margin-top:8px; font-size:24px;}
+#header #logo p{margin-top:-2px; font-size:.9rem; text-transform:lowercase;}
+
+
+/* Page Intro
+--------------------------------------------------------------------------------------------------------------- */
+#pageintro{padding:250px 0;}
+
+#pageintro li article{display:block; max-width:75%; padding-bottom:10px; overflow:hidden;}
+#pageintro li article *{word-wrap:break-word;}
+#pageintro li .heading{margin-bottom:20px; font-size:3rem;}
+#pageintro li p:first-of-type{margin:0 0 20px 0; text-transform:uppercase; font-weight:400; font-size:1.2rem; letter-spacing:5px;}
+#pageintro li footer{margin-top:50px;}
+
+
+
+
+/* Content Area
+--------------------------------------------------------------------------------------------------------------- */
+
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+
+
+/* Copyright
+--------------------------------------------------------------------------------------------------------------- */
+#copyright{padding:20px 0;}
+#copyright *{margin:0; padding:0;}
+
+
+/* Transition Fade
+This gives a smooth transition to "ALL" elements used in the layout - other than the navigation form used in mobile devices
+If you don't want it to fade all elements, you have to list the ones you want to be faded individually
+Delete it completely to stop fading
+--------------------------------------------------------------------------------------------------------------- */
+*, *::before, *::after{transition:all .3s ease-in-out;}
+#mainav form *{transition:none !important;}
+
+nav ul, nav ol{margin:0; padding:0; list-style:none;}
+
+
+#mainav .drop1::after, #mainav li li .drop1::after,  .sidebar nav a::after{position:absolute;  font-size:10px; line-height:10px;}
+
+/* Top Navigation */
+#mainav{position:relative; margin-bottom:-30px; padding-left:40px; z-index:999; margin-top:-40px;}
+#mainav ul{text-transform:uppercase;}
+#mainav ul ul{z-index:9999; position:absolute; width:150px; text-transform:none; text-align:left;}
+#mainav ul ul ul{left:180px; top:0;}
+#mainav li{display:block; float:left; position:relative; margin:0; padding:0;}
+#mainav li:last-child{margin-right:0;}
+#mainav li li{width:100%; margin:0;}
+#mainav li a{display:block; padding:20px;}
+#mainav li li a{border:solid; border-width:0 0 1px 0;}
+#mainav .drop1{padding-left:15px;}
+#mainav li li a, #mainav li li .drop1{display:block; margin:0; padding:10px 15px;}
+#mainav .drop1::after, #mainav li li .drop1::after{content:"";}
+#mainav .drop1::after{top:25px; left:5px;}
+#mainav li li .drop1::after{top:15px; left:5px;}
+#mainav ul ul{visibility:hidden; opacity:0; margin-left:-30px;}
+#mainav ul li:hover > ul{visibility:visible; opacity:1;}
+
+
+
+body{color:#4A4A4A; background-color:#FFFFFF;}
+a{color:#629BAF;}
+a:active, a:focus{background:transparent;}/* IE10 + 11 Bugfix - prevents grey background */
+hr, 
+
+.overlay{color:#FFFFFF; background-color:inherit;}
+.overlay::after{color:inherit; background-color:rgba(0,0,0,.55);}
+
+.btn, .btn.inverse:hover{color:#FFFFFF; background-color:#000900; border-color:#629BAF;}
+.btn:hover, .btn.inverse{color:inherit; background-color:transparent; border-color:inherit;}
+
+
+.flex-direction-nav a i, .flex-direction-nav .flex-disabled:hover i{color:#FFFFFF; background-color:rgba(255,255,255,.5);}
+.flex-direction-nav a:hover i{background-color:#000900;}
+
+
+/* Rows */
+.row0, .row0 a{color:#4A4A4A; background-color:#F6F6F6;}
+.row1{color:#4A4A4A; background-color:#FFF;font-family:cursive;}
+
+
+
+#header a{color:inherit;}
+
+
+/* Page Intro */
+#pageintro li p:first-of-type{color:rgba(255,255,255,.5);}
+
+
+
+/* Footer */
+#footer .heading{color:#FFFFFF;}
+#footer hr, #footer .borderedbox, #footer .linklist li{border-color:rgba(255,255,255,.1);}
+
+#footer nav a{color:inherit;}
+#footer nav a:hover, #footer nav li:first-child a{color:#629BAF;}
+
+#footer input, #footer button{border-color:transparent;}
+#footer input{color:#FFFFFF; background-color:#4E4E4E;}
+#footer input:focus{border-color:#629BAF;}
+#footer button{color:#FFFFFF; background-color:#629BAF;}
+
+
+/* Navigation */
+#mainav{color:#FFFFFF; background-color:rgb(10, 22, 21);}
+#mainav li a{color:inherit;}
+#mainav .active a, #mainav a:hover, #mainav li:hover > a{color:#1CA16D; background-color:inherit;}
+#mainav li li a, #mainav .active li a{color:#FFFFFF; background-color:rgba(98,155,175,.5);/* #629BAF */ border-color:rgba(0,0,0,.6);}
+#mainav li li:hover > a, #mainav .active .active > a{color:#FFFFFF; background-color:#629BAF;}
+#mainav form select{color:#4A4A4A; background-color:#FFFFFF;}
+
+
+
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport{width:device-width;}
+
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width:978px){
+	.hoc{max-width:978px;}
+}
+
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width:900px){
+	.hoc{max-width:90%;}
+
+	#topbar{}
+
+	#header{}
+
+	#mainav{padding:15px;}
+	#mainav ul{display:none;}
+	#mainav form{display:block;}
+
+	
+
+	
+
+	#footer{}
+
+	
+}
+
+
+@media screen and (max-width:750px){
+	
+	#header{text-align:center;}
+	#header #logo{margin:0 0 30px 0;}
+
+	#pageintro{padding:150px 0 100px;}
+	#pageintro li article{max-width:none; width:100%;}
+}
+
+
+@media screen and (max-width:450px){
+	#topbar ul li{margin:2px; padding-right:0; border-right:none;}
+}
+
+----------------------------------------------------------------------------------------------------------- */

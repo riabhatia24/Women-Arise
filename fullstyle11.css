@@ -1,0 +1,18 @@
+body{
+
+	background-image: url(newhelp.jpg);
+	background-size: cover;
+	color: white;
+margin-left: 90px;
+	font-family: arial;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 380px;
+}
+
+
+a{
+
+	color: red;
+	font-size: 20px;
+}

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width" />
+      <title>Self Defence Training 
+      </title>
+      
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <!-- CUSTOM STYLE -->       
+      <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link rel="stylesheet" href="css/template-style.css">
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>    
+      <script type="text/javascript" src="js/modernizr.js"></script>
+      <script type="text/javascript" src="js/responsee.js"></script>         
+      <!--[if lt IE 9]> 
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+      <![endif]-->     
+   </head>
+   <body class="size-1140">
+      <!-- TOP NAV WITH LOGO -->          
+      <header class="margin-bottom">
+         <div class="line">
+            <nav>
+               <div class="top-nav">
+                  <p class="nav-text"></p>
+                  <a class="logo" href="main.index.php">            
+                  Self<span>Defence</span>
+                  </a>            
+                  
+               </div>
+            </nav>
+         </div>
+      </header>
+      <!-- MAIN SECTION -->                  
+      <section id="article-section" class="line">
+         <div class="margin">
+            <!-- ARTICLES -->             
+            <div class="s-12 l-9">
+               <!-- ARTICLE 1 -->               
+               <article class="margin-bottom">
+                  <div class="post-1 line">
+                     <!-- image -->                 
+                     <div class="s-12 l-11 post-image">                   
+                        <img src="safety.jpeg" alt="Self Defence">              
+                     </div>
+                     <!-- date -->                 
+                     <div class="s-12 l-1 post-date">
+                        <p class="date">07</p>
+                        <p class="month">mar</p>
+                     </div>
+                  </div>
+                  <!-- text -->                 
+                  <div class="post-text">
+                     <h1>Self Defence</h1>
+                     <p>
+                        The best self defense is to make yourself aware. Use these basic safety tips to help save your own life.
+
+                    There are a million ways to defend yourself. There are a million people telling you how to do it. I’m not trying to be either of those. What I do want to do is help you become aware of some really basic self awareness/situational awareness things you can do to help you increase your safety when you’re out and about with or without the kids.
+
+I know, as moms, we tend to get tunnel vision when we’re with the kids and are just trying to get through this next shopping trip without any tantrums and getting at least 30% of what we meant to go in for. However, our main priority is to make sure we and the children are safe – everything else is secondary.  These comments aren’t meant to judge, they are meant to make you aware of how our everyday habits can put us in danger.
+                     </p>
+                     <br>
+                     <blockquote>
+                        Bad dudes are just waiting for that woman who hasn’t a clue as to what is going on around her because she’s going to be the easiest mark.
+</blockquote>
+                     <br>
+                     <p> 
+                       "When you have a sense of what you could do in the event that you were attacked and believe you could do something to help yourself, the likelihood that you'll actually do something increases," says Experts. "I think more important than any specific technique is your mentality. Being willing to fight back is the most important thing."           
+                     </p>
+                     <h2>Basic Self Defence Moves</h2>
+                     <p>
+                        If someone is in front of you and you've ID'd him or her as a threat (read: you've used verbal communication to try to get this person out of your personal space, or his or her hands are on you), a straight punch can be very effective. 
+
+ 
+                     </p>
+                     <img src="sd.jpg" alt="Self Defence">
+                     <p>
+                        Push from the ball of your foot and thrust your hip and fist forward at the same time, which will maximize your strength, says Experts. "Really drive from the ground, and don't let your elbow flip up; your contact area should be the pointer and middle finger knuckles, not your ring and pinky finger knuckles." Also, keep in mind that aiming your punch for a vulnerable area—for example, your attacker's eyes, nose, or throat—will be most effective, says Experts
+                     </p>
+                     <p class="author">Women Arise Team</p>
+                  </div>
+               </article>
+               <!-- AD REGION -->
+               <div class="line">
+                  <div class="advertising horizontal">
+                     <img src="no.jpg" alt="ad banner">         
+                  </div>
+               </div>
+            </div>
+            <!-- SIDEBAR -->             
+            <div class="s-12 l-3">
+               <aside>
+                  <!-- NEWS 1 -->           
+                  <img src="yesyes.jpg" alt="Tips">          
+                  <div class="aside-block margin-bottom">
+                     <h3>Being Attentive is the key</h3>
+                     <p>If you're a woman, you've probably experienced a nervous, sinking feeling when walking alone at night, fearing what's lurking around a dark corner. There's also a good chance you've felt your heart rate speed uncontrollably when you thought you were being followed—or worse, perhaps you were followed and possibly even attacked. </p>
+                  </div>
+                  <!-- AD REGION --> 
+                  <div class="advertising margin-bottom">
+                     <img src="protect.jpg" alt="ad banner">         
+                  </div>
+                  <!-- LATEST POSTS -->
+                  <div class="aside-block margin-bottom">
+                     <h3></h3>
+                     <a class="latest-posts" href="#">
+                        <h5>Some Videos</h5>
+                        <p>
+                           Learn these Self Defence Moves
+                        </p>
+                     </a>
+                     <a class="latest-posts" href="#">
+                        <h5>What to do in such a situation?</h5>
+                        <p>
+                           If someone grabs your waist
+                        </p>
+                     </a>
+                     <a class="latest-posts" href="#">
+                        <h5>New and Amazing moves</h5>
+                        <p>
+                           Experts Suggest that what everyone ........
+                        </p>
+                     </a>
+                     
+                  <a class="latest-posts" href="#">
+                        <h5>Don't Miss Out</h5>
+                        <p>
+                           Some techniques to practise at home........
+                        </p>
+                     </a>
+                  </div>
+               </aside>
+            </div>
+         </div>
+      </section>
+      
+      </div>
+   </body>
+</html>
